@@ -1,62 +1,30 @@
-# Start screen
-When the application is launched, a login window is loaded with the possibility of logging in by entering a username, password, and selected position.
+**Description**:
+The CowFarmManagementSystem is a .NET application developed using C# in Microsoft Visual Studio. It serves as a comprehensive management tool for a dairy farm, offering functionality to manage employee data, track cow-related information including milk production, health records, breeding details, milk sales, and financial transactions.
 
+**Features**:
+- **Login Screen**: The application begins with a login window where users can authenticate using their username, password, and select their role (admin or employee).
+  
+- **Admin Panel**: Upon successful login as an admin, users gain access to an admin screen where they can add, delete, or modify employee data.
 
-# When selecting Admin
-Upon selection of admin role and correct login details, goes to admin screen to add, delete or modify
-employee data.
+- **Employee Control Panel**: Employees, upon login, are directed to a control panel offering various options tailored to their responsibilities.
 
+- **Cows Management**: Users can manage a list of cows including adding, deleting, and updating data. The application automatically calculates the age based on the date of birth. A search filter and clear button enhance usability.
 
-# When selecting Employee
-When selecting the employee position, we go to the screen for employees with a control panel, which gives the opportunity to choose between
-the different options according to the need of the employee.
- 
+- **Milk Production Tracking**: Allows tracking of daily milk production for each cow. Users can enter, update, or delete milk production data, with automatic calculation of total milk produced.
 
-# Cows button
-The Cows button brings up the menu for adding, deleting, changing data in a list of cows. When selecting the date of birth, the age
-is automatically entered in its field. The filter allows searching for a specific cow. Clear button clears the data entered in the fields.
+- **Health Monitoring**: Enables the maintenance of health records for cows including injuries or health issues. Users can record diagnosis, treatment details, and associated costs.
 
+- **Breeding Management**: Facilitates tracking of cow breeding activities such as calving and insemination dates. Automatically populates cow details upon ID entry.
 
-# Milk production button
-The Milk Production button allows by selecting an already existing Cow ID number to be entered, changed or deleted
-data on the daily milk production of a cow. By entering the three values for liters of milk, the total milk is automatically calculated and
-enter total milk in the field.
+- **Milk Sales Recording**: Allows recording of milk sales including price, quantity, employee ID, customer details, and date of sale.
 
+- **Financial Management**: Provides a platform to manage farm income and expenses. Milk sales data is automatically included in the income panel. Users can record expenses and income with details such as category, amount, and date.
 
-# Health button
-The Health button allows you to keep a cow health report. In this menu, by selecting an existing Cow ID number,
-an event where a cow is injured or has a health problem can be entered, the diagnosis given by the vet can be recorded
-doctor, treatment, cost of treatment and date.
- 
+- **Logout and Return**: Offers convenient navigation with a logout button for exiting the application and a return button for reverting to the login screen.
 
-# Breeding button
-The Breeding button allows tracking the breeding of cows by entering the ID number of an existing cow,
-calving date, insemination date, expected calving date and actual calving date. When entering the ID
-number, the name and years of the pregnant cow are automatically filled in.
- 
+**Implementation**:
+- **Programming Language**: C#
+- **Visualization Platform**: .NET
+- **Database**: Microsoft SQL
+- **IDE**: Microsoft Visual Studio
 
-# Milk Sales button
-The Milk Sales button allows recording of milk sales. As the record contains price, quantity, ID number of
-employee, customer name and phone number and date.
- 
-
-# Finance button
-The Finance button takes you to the farm income and expenditure menu. Milk sales records are automatically saved to the list
-with income. This menu contains an income and expenses panel. To enter an expense, a date must be selected, a selection from Advance
-entered expenses (Maintenance, Food, Salary, Tax, Other) and amount. The income panel requires the same information with a difference in the pre-entered ones
-revenue data (Sales, Training, Services, Other).
- 
-
-# Exit button
-The Logout button is at the top left.
-
-
-# Return button
-The bottom left button is an exit button that brings up the login menu.
-
-
-# Implementation software
-Programming language: C-Sharp
-Visualization Platform: .Net
-Database: Microsoft SQL
-IDE: Microsoft Visual Studio
