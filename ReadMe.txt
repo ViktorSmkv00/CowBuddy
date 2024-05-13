@@ -29,17 +29,4 @@
 - **Database**: Microsoft SQL
 - **IDE**: Microsoft Visual Studio
 
-## Usage
 
-1. Clone the repository to your local machine.
-2. Open the solution file in Microsoft Visual Studio.
-3. Build and run the application.
-4. Follow the on-screen instructions to navigate through different functionalities.
-
-## Contributors
-
-- [Your Name](link to GitHub profile) - Description of contribution.
-
-## License
-
-This project is licensed under the [MIT License](link to license file).
