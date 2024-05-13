@@ -1,7 +1,7 @@
-** Description
+# Description
 The CowFarmManagementSystem is a .NET application developed using C# in Microsoft Visual Studio. It serves as a comprehensive management tool for a dairy farm, offering functionality to manage employee data, track cow-related information including milk production, health records, breeding details, milk sales, and financial transactions.
 
-**Features**:
+## Features
 - **Login Screen**: The application begins with a login window where users can authenticate using their username, password, and select their role (admin or employee).
   
 - **Admin Panel**: Upon successful login as an admin, users gain access to an admin screen where they can add, delete, or modify employee data.
